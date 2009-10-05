@@ -36,7 +36,7 @@ extern "C" {
 #endif
 
 #ifdef HAVE_CONFIG_H
-#  include "../config.h"
+#  include "config.h"
 #endif
 
 #include "neaacdec.h"
@@ -214,6 +214,7 @@ typedef float float32_t;
 #  include <stdint.h>
 # else
 /* we need these... */
+/*
 #ifndef __TCS__
 typedef unsigned long long uint64_t;
 typedef signed long long int64_t;
@@ -227,7 +228,8 @@ typedef unsigned char uint8_t;
 typedef signed long int32_t;
 typedef signed short int16_t;
 typedef signed char int8_t;
-# endif
+*/
+#endif
 #endif
 #if HAVE_UNISTD_H
 //# include <unistd.h>
