@@ -11,12 +11,6 @@ LOCAL_STATIC_LIBARIES:=		\
 	$(FAAD2_TOP)/libfaad/libfaad.la \
         $(FAAD2_TOP)/common/mp4ff/libmp4ff.a	
 
-# LOCAL_SHARED_LIBRARIES := 	\
-#     libglib-2.0             	\
-#     libgthread-2.0          	\
-#     libgmodule-2.0          	\
-#     libgobject-2.0
-
 LOCAL_MODULE:= faad
 
 LOCAL_CFLAGS+= -DUSE_TAGGING=1

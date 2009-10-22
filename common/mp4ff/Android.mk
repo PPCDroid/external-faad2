@@ -10,12 +10,6 @@ LOCAL_SRC_FILES:= 		\
 		mp4util.c 	\
 		mp4tagupdate.c
 	
-# LOCAL_SHARED_LIBRARIES := 	\
-#     libglib-2.0             	\
-#     libgthread-2.0          	\
-#     libgmodule-2.0          	\
-#     libgobject-2.0
-
 LOCAL_MODULE:= libmp4ff
 
 LOCAL_CFLAGS+= -DUSE_TAGGING=1

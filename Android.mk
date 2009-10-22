@@ -7,6 +7,4 @@ FAAD2_TOP := $(LOCAL_PATH)
 include $(CLEAR_VARS)
 
 include $(FAAD2_TOP)/libfaad/Android.mk
-#include $(FAAD2_TOP)/common/mp4ff/Android.mk
-#include $(FAAD2_TOP)/frontend/Android.mk
 endif
